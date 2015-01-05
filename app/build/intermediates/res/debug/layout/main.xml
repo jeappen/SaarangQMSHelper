@@ -14,7 +14,7 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Passport Registration" 
+        android:text="Barcode Registration"
 		android:background="@drawable/roundshapentn"
         android:layout_centerHorizontal="true"
         android:padding="12dp"
@@ -43,4 +43,4 @@
         android:text="Feedback"
         android:textColor="#ffffff"/>
 
-    </RelativeLayout><!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/QMSHelper/app/src/main/res/layout/main.xml -->
+    </RelativeLayout><!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/SaarangQMSHelper/app/src/main/res/layout/main.xml -->

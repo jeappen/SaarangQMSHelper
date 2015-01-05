@@ -39,7 +39,9 @@
         android:layout_toRightOf="@+id/textView01"
         android:prompt="@string/spinner_title"
         android:textSize="15sp"
-        android:visibility="gone"/>
+        android:visibility="visible"
+
+        android:inputType="textFilter"/>
     
 
 
@@ -51,7 +53,7 @@
         android:layout_toRightOf="@+id/textView01"
         android:prompt="@string/spinner_title"
         android:textSize="15sp"
-        android:visibility="visible"/>
+        android:visibility="gone"/>
 
     <TextView
         android:id="@+id/textView01"
@@ -192,4 +194,4 @@
 
 </RelativeLayout>
 
-</ScrollView><!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/QMSHelper/app/src/main/res/layout/register_re.xml -->
+</ScrollView><!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/SaarangQMSHelper/app/src/main/res/layout/register_re.xml -->

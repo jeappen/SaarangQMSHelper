@@ -71,7 +71,7 @@ MERGED from com.android.support:support-v4:21.0.3:16:5
 		ADDED from AndroidManifest.xml:23:9
 	android:name
 		ADDED from AndroidManifest.xml:19:9
-activity#org.shaastra.qmshelper.Login
+activity#org.saarang.qmshelper.Login
 ADDED from AndroidManifest.xml:24:9
 	android:label
 		ADDED from AndroidManifest.xml:27:13
@@ -79,7 +79,7 @@ ADDED from AndroidManifest.xml:24:9
 		ADDED from AndroidManifest.xml:26:13
 	android:name
 		ADDED from AndroidManifest.xml:25:13
-activity#org.shaastra.qmshelper.Main
+activity#org.saarang.qmshelper.Main
 ADDED from AndroidManifest.xml:30:9
 	android:label
 		ADDED from AndroidManifest.xml:33:13
@@ -97,7 +97,7 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:37:17
 	android:name
 		ADDED from AndroidManifest.xml:37:27
-activity#org.shaastra.qmshelper.SimpleScannerActivity
+activity#org.saarang.qmshelper.SimpleScannerActivity
 ADDED from AndroidManifest.xml:45:9
 	android:label
 		ADDED from AndroidManifest.xml:48:13
@@ -105,7 +105,7 @@ ADDED from AndroidManifest.xml:45:9
 		ADDED from AndroidManifest.xml:47:13
 	android:name
 		ADDED from AndroidManifest.xml:46:13
-activity#org.shaastra.qmshelper.BulkScannerActivity
+activity#org.saarang.qmshelper.BulkScannerActivity
 ADDED from AndroidManifest.xml:51:9
 	android:label
 		ADDED from AndroidManifest.xml:54:13
@@ -113,7 +113,7 @@ ADDED from AndroidManifest.xml:51:9
 		ADDED from AndroidManifest.xml:53:13
 	android:name
 		ADDED from AndroidManifest.xml:52:13
-activity#org.shaastra.qmshelper.Passport
+activity#org.saarang.qmshelper.Passport
 ADDED from AndroidManifest.xml:57:9
 	android:label
 		ADDED from AndroidManifest.xml:60:13
@@ -121,7 +121,7 @@ ADDED from AndroidManifest.xml:57:9
 		ADDED from AndroidManifest.xml:59:13
 	android:name
 		ADDED from AndroidManifest.xml:58:13
-activity#org.shaastra.qmshelper.NewUser
+activity#org.saarang.qmshelper.NewUser
 ADDED from AndroidManifest.xml:63:9
 	android:label
 		ADDED from AndroidManifest.xml:66:13
@@ -129,7 +129,7 @@ ADDED from AndroidManifest.xml:63:9
 		ADDED from AndroidManifest.xml:65:13
 	android:name
 		ADDED from AndroidManifest.xml:64:13
-activity#org.shaastra.qmshelper.RegisteredUser
+activity#org.saarang.qmshelper.RegisteredUser
 ADDED from AndroidManifest.xml:69:9
 	android:label
 		ADDED from AndroidManifest.xml:72:13
@@ -137,7 +137,7 @@ ADDED from AndroidManifest.xml:69:9
 		ADDED from AndroidManifest.xml:71:13
 	android:name
 		ADDED from AndroidManifest.xml:70:13
-activity#org.shaastra.qmshelper.SearchUser
+activity#org.saarang.qmshelper.SearchUser
 ADDED from AndroidManifest.xml:75:9
 	android:label
 		ADDED from AndroidManifest.xml:78:13
@@ -145,7 +145,7 @@ ADDED from AndroidManifest.xml:75:9
 		ADDED from AndroidManifest.xml:77:13
 	android:name
 		ADDED from AndroidManifest.xml:76:13
-activity#org.shaastra.qmshelper.FeedbackMain
+activity#org.saarang.qmshelper.FeedbackMain
 ADDED from AndroidManifest.xml:81:9
 	android:label
 		ADDED from AndroidManifest.xml:84:13
@@ -153,7 +153,7 @@ ADDED from AndroidManifest.xml:81:9
 		ADDED from AndroidManifest.xml:83:13
 	android:name
 		ADDED from AndroidManifest.xml:82:13
-activity#org.shaastra.qmshelper.FeedbackForm
+activity#org.saarang.qmshelper.FeedbackForm
 ADDED from AndroidManifest.xml:87:9
 	android:label
 		ADDED from AndroidManifest.xml:90:13
@@ -161,7 +161,7 @@ ADDED from AndroidManifest.xml:87:9
 		ADDED from AndroidManifest.xml:89:13
 	android:name
 		ADDED from AndroidManifest.xml:88:13
-activity#org.shaastra.qmshelper.DisplayFeedback
+activity#org.saarang.qmshelper.DisplayFeedback
 ADDED from AndroidManifest.xml:92:21
 	android:label
 		ADDED from AndroidManifest.xml:95:9
@@ -169,13 +169,13 @@ ADDED from AndroidManifest.xml:92:21
 		ADDED from AndroidManifest.xml:94:9
 	android:name
 		ADDED from AndroidManifest.xml:93:9
-activity#org.shaastra.qmshelper.reused.ResponseActivity
+activity#org.saarang.qmshelper.reused.ResponseActivity
 ADDED from AndroidManifest.xml:98:9
 	android:label
 		ADDED from AndroidManifest.xml:100:13
 	android:name
 		ADDED from AndroidManifest.xml:99:13
-activity#org.shaastra.qmshelper.reused.Choose
+activity#org.saarang.qmshelper.reused.Choose
 ADDED from AndroidManifest.xml:102:9
 	android:label
 		ADDED from AndroidManifest.xml:105:13
@@ -193,7 +193,7 @@ category#android.intent.category.DEFAULT
 ADDED from AndroidManifest.xml:109:17
 	android:name
 		ADDED from AndroidManifest.xml:109:27
-activity#org.shaastra.qmshelper.reused.Register
+activity#org.saarang.qmshelper.reused.Register
 ADDED from AndroidManifest.xml:112:10
 	android:label
 		ADDED from AndroidManifest.xml:115:13
@@ -207,7 +207,7 @@ action#android.intent.action.REGISTER
 ADDED from AndroidManifest.xml:117:17
 	android:name
 		ADDED from AndroidManifest.xml:117:25
-activity#org.shaastra.qmshelper.reused.GetList
+activity#org.saarang.qmshelper.reused.GetList
 ADDED from AndroidManifest.xml:122:9
 	android:label
 		ADDED from AndroidManifest.xml:125:13
@@ -221,7 +221,7 @@ action#android.intent.action.GETLIST
 ADDED from AndroidManifest.xml:127:17
 	android:name
 		ADDED from AndroidManifest.xml:127:25
-activity#org.shaastra.qmshelper.reused.Display
+activity#org.saarang.qmshelper.reused.Display
 ADDED from AndroidManifest.xml:132:9
 	android:label
 		ADDED from AndroidManifest.xml:135:13

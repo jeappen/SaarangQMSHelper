@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/QMSHelper/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/SaarangQMSHelper/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="ExtraDept">
-        <item>	Design	</item>
+        <!--<item>	Design	</item>
         <item>	Hospitality	</item>
         <item>	Sales and Distribution	</item>
         <item>	Prize and Prize money	</item>
-        <item>	Lecture Speakers	</item>
-        <item>	Sponsorship Lectures-participants	</item>
+        <item>	Lec. Speakers	</item>
+        <item>	Sponsorship Lec.-participants	</item>
         <item>	Sponsorship Company	</item>
         <item>	Catering - Facilities</item>
         <item>	General facilities	- Facilities</item>
@@ -16,11 +16,23 @@
         <item>	VIP care	- Facilities</item>
         <item>	Video Conference participant	</item>
         <item>	Exhibition	</item>
-        <item>	Lectures participant	</item>
-      <!--  <item>	Events 	</item> -->
+        <item>	Archana Sharma	Lecture	</item>
+        <item>	Arogyaswami Paulraj	Lecture	</item>
+        <item>	Ela Bhatt	Lecture	</item>
+        <item>	Gurtej Sandhu	Lecture	</item>
+        <item>	Partha Mitra	Lecture	</item>
+        <item>	Pawan Sinha	Lecture	</item>
+        <item>	Rajeeva Karandikar	Lecture	</item>
+        <item>	Ravi Venkatesan	Lecture	</item>
+        <item>	Sunil Kumar	Lecture	</item>
+        <item>	Vanitha Narayanan	Lecture	</item>
+        <item>	Vijay Govindarajan	Lecture	</item>
+        <item>	Vinita Bali	Lecture	</item>
+
         <item>	Shows	</item>
         <item>	Startup Hive Bucket 1	</item>
         <item>	Startup Hive Bucket 2	</item>
+        <item>	Events 	</item> -->
 
     </string-array>
     <string-array name="FeedbackCheckbox">
@@ -42,8 +54,8 @@
         <item>	Hospitality	</item>
         <item>	Sales and Distribution	</item>
         <item>	Prize and Prize money	</item>
-        <item>	Lecture Speakers	</item>
-        <item>	Sponsorship Lecture</item>
+        <item>	Speakers	</item>
+        <item>	Sponsorship Lec</item>
         <item>Sponsorship Company</item>
         <item>	Catering</item>
         <item>	General facilities</item>
@@ -51,9 +63,11 @@
         <item>	VIP care	</item>
         <item>	Video Conference participant	</item>
         <item>	Exhibition	</item>
-        <item>	Lectures participant	</item>
+        <item>	Lecture	</item>
         <item> Workshop</item>
         <item> Training</item>
+        <item> Simulation</item>
+        <item> Analysis</item>
         <item> Gaming Zone</item>
         <item> Entrepreneurship Confluence </item>
         <!--  <item>	Events 	</item> -->
@@ -63,7 +77,7 @@
         <item>	Startup Hive Bucket 2	</item>
 
     </string-array>
-    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/QMSHelper/app/src/main/res/values/questions.xml -->
+    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/SaarangQMSHelper/app/src/main/res/values/questions.xml -->
     <eat-comment/>
     <string-array name="questions">
         <item>	SALES AND DISTRIBUTION FEEDBACK	</item>
@@ -91,7 +105,7 @@
         <item>	Was the time to transition from one panel discussion to other sufficient? 	</item>
         <item>	How engaging were the filler events? (Psychometric tests, documentary )	</item>
         <item>	Rate your overall experience of the confluence	</item>
-        <item>	Sponsorship Lecture  FEEDBACK	</item>
+        <item>	Sponsorship Lec  FEEDBACK	</item>
         <item>	1. How was the general conduct and organization of the lecture?	</item>
         <item>	2. Did you have an overview of the sponsor’s activities?	</item>
         <item>	3. Rate the lecture under the following heads:	</item>
@@ -114,7 +128,7 @@
         <item>	 viii. Web-based Publicity: Facebook page, Blog	</item>
         <item>	 ix. Newspaper publications	</item>
         <item>	5. How satisfied were you with your association with Shaastra?	</item>
-        <item>	LECTURE SPEAKERS FEEDBACK FORM	</item>
+        <item>	LEC SPEAKERS FEEDBACK FORM	</item>
         <item>	Were you contacted well in advance	</item>
         <item>	Was the lecture attended by the right audience	</item>
         <item>	Audience response	</item>
@@ -154,7 +168,7 @@
         <item>	3. How clear information you had about your event?	</item>
         <item>	4. How was the timings of your food servings?	</item>
         <item>	5. Were you given enough attention before and after the event? 	</item>
-        <item>	Workshop or Training Participant FEEDBACK	</item>
+        <item>	Workshop or Training Participant Simulation Analysis FEEDBACK	</item>
         <item>	How informative and interactive was the workshop?	</item>
         <item>	Hands-on session	</item>
         <item>	Individual Attention given	</item>
@@ -223,13 +237,13 @@
         <item>	3. How was your overall experience of the Startup Hive?	</item>
 
     </string-array>
-    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/QMSHelper/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/SaarangQMSHelper/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="skipevent">
         <item>Wright</item>
         <item>Circuit</item>
     </string-array>
-    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/QMSHelper/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/SaarangQMSHelper/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -290,7 +304,7 @@
     <color name="secondary_text_disabled_material_light">#24000000</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/QMSHelper/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/SaarangQMSHelper/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.5/res/values/values.xml -->
     <eat-comment/>
     <color name="viewfinder_border">#ffafed44</color>
     <color name="viewfinder_laser">#ffcc0000</color>
@@ -318,7 +332,7 @@
     <declare-styleable name="Toolbar"><attr format="reference" name="titleTextAppearance"/><attr format="reference" name="subtitleTextAppearance"/><attr name="title"/><attr name="subtitle"/><attr name="android:gravity"/><attr format="dimension" name="titleMargins"/><attr format="dimension" name="titleMarginStart"/><attr format="dimension" name="titleMarginEnd"/><attr format="dimension" name="titleMarginTop"/><attr format="dimension" name="titleMarginBottom"/><attr name="contentInsetStart"/><attr name="contentInsetEnd"/><attr name="contentInsetLeft"/><attr name="contentInsetRight"/><attr format="dimension" name="maxButtonHeight"/><attr format="reference" name="theme"/><attr format="reference" name="collapseIcon"/><attr format="string" name="collapseContentDescription"/><attr name="popupTheme"/><attr format="reference" name="navigationIcon"/><attr format="string" name="navigationContentDescription"/><attr name="android:minHeight"/></declare-styleable>
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/QMSHelper/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/SaarangQMSHelper/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
     <dimen name="abc_action_bar_default_padding_material">4dp</dimen>
@@ -357,11 +371,11 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/QMSHelper/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/SaarangQMSHelper/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/QMSHelper/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/SaarangQMSHelper/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -379,11 +393,14 @@
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
     <integer name="abc_max_action_buttons">2</integer>
-    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/QMSHelper/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.5/res/values/values.xml -->
+    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/SaarangQMSHelper/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.5/res/values/values.xml -->
     <eat-comment/>
     <integer name="viewfinder_border_length">60</integer>
     <integer name="viewfinder_border_width">4</integer>
-    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/QMSHelper/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/SaarangQMSHelper/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="UserID_Name">Saarang Barcode ID</string>
+    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/SaarangQMSHelper/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -401,16 +418,26 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/QMSHelper/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/SaarangQMSHelper/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="app_name">Shaastra QMS Assistant</string>
+    <string name="app_name">Saarang QMS Assistant</string>
+    <string name="clear_button">Clear All Fields</string>
+    <string name="event_csv">/sdcard/eventregistration_data.csv</string>
+    <string name="event_separator">_</string>
     <string name="faq">"Tips:\n1.Default Password is same as email ID.\n2.Changing email ID and registering will create a new account with that email. All other details are editable.\n3.Tap \"Clear All Fields\" to enter a new email id for another account."</string>
+    <string name="feedback_backup_csv">/sdcard/feedback_databackup.csv</string>
+    <string name="feedback_csv">/sdcard/feedback_data.csv</string>
+    <string name="fest_name">Saarang</string>
     <string name="id_default">(make new account to get)</string>
     <string name="id_name">User ID</string>
     <string name="id_prefix"/>
+    <string name="placeholder_faq">FAQ goes here</string>
+    <string name="register_button">Make New Account and Update Details</string>
     <string name="registeredfaq">"Tips:\n1.This app does not change the password for existing accounts.\n2.Since every account is tied to an email, the email cannot be changed. All other details are editable.\n3.Tap \"Clear All Fields\" to clear everything except the email."</string>
     <string name="spinner_title">no of tickets</string>
-    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/QMSHelper/app/src/main/res/values/styles.xml -->
+    <string name="tempsave">/sdcard/temp.txt</string>
+    <string name="update_button">Update Details</string>
+    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/SaarangQMSHelper/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
@@ -422,7 +449,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/QMSHelper/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/joera_000/AndroidStudioProjects/SaarangQMSHelper/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>

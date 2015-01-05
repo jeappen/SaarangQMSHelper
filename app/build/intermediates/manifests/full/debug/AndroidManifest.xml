@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.shaastra.qmshelper"
-    android:versionCode="9"
-    android:versionName="0.9" >
+    android:versionCode="17"
+    android:versionName="1.1.5" >
 
     <uses-sdk
         android:minSdkVersion="10"
@@ -16,18 +16,18 @@
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
-        android:name="org.shaastra.qmshelper.Singleton"
+        android:name="org.saarang.qmshelper.Singleton"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="org.shaastra.qmshelper.Login"
+            android:name="org.saarang.qmshelper.Login"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="org.shaastra.qmshelper.Main"
+            android:name="org.saarang.qmshelper.Main"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name" >
             <intent-filter>
@@ -44,56 +44,56 @@
             -->
         </activity>
         <activity
-            android:name="org.shaastra.qmshelper.SimpleScannerActivity"
+            android:name="org.saarang.qmshelper.SimpleScannerActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="org.shaastra.qmshelper.BulkScannerActivity"
+            android:name="org.saarang.qmshelper.BulkScannerActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="org.shaastra.qmshelper.Passport"
+            android:name="org.saarang.qmshelper.Passport"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="org.shaastra.qmshelper.NewUser"
+            android:name="org.saarang.qmshelper.NewUser"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="org.shaastra.qmshelper.RegisteredUser"
+            android:name="org.saarang.qmshelper.RegisteredUser"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="org.shaastra.qmshelper.SearchUser"
+            android:name="org.saarang.qmshelper.SearchUser"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="org.shaastra.qmshelper.FeedbackMain"
+            android:name="org.saarang.qmshelper.FeedbackMain"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="org.shaastra.qmshelper.FeedbackForm"
+            android:name="org.saarang.qmshelper.FeedbackForm"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="org.shaastra.qmshelper.DisplayFeedback"
+            android:name="org.saarang.qmshelper.DisplayFeedback"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name="org.shaastra.qmshelper.reused.ResponseActivity"
+            android:name="org.saarang.qmshelper.reused.ResponseActivity"
             android:label="Response Activity" >
         </activity>
         <activity
-            android:name="org.shaastra.qmshelper.reused.Choose"
+            android:name="org.saarang.qmshelper.reused.Choose"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name" >
             <intent-filter>
@@ -103,7 +103,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="org.shaastra.qmshelper.reused.Register"
+            android:name="org.saarang.qmshelper.reused.Register"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name" >
             <intent-filter>
@@ -113,7 +113,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="org.shaastra.qmshelper.reused.GetList"
+            android:name="org.saarang.qmshelper.reused.GetList"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name" >
             <intent-filter>
@@ -123,7 +123,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="org.shaastra.qmshelper.reused.Display"
+            android:name="org.saarang.qmshelper.reused.Display"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name" >
             <intent-filter>

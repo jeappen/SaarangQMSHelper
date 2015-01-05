@@ -39,7 +39,9 @@
         android:layout_toRightOf="@+id/textView01"
         android:prompt="@string/spinner_title"
         android:textSize="15sp"
-        android:visibility="gone"/>
+        android:visibility="visible"
+
+        android:inputType="textFilter"/>
     
 
 
@@ -51,7 +53,7 @@
         android:layout_toRightOf="@+id/textView01"
         android:prompt="@string/spinner_title"
         android:textSize="15sp"
-        android:visibility="visible"/>
+        android:visibility="gone"/>
 
     <TextView
         android:id="@+id/textView01"
