@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import org.apache.http.HttpEntity;
@@ -19,10 +20,16 @@ import org.apache.http.message.BasicNameValuePair;
 import org.saarang.qmshelper.R;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.Html;
+import android.text.TextUtils;
+import android.text.method.LinkMovementMethod;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -32,6 +39,7 @@ import android.view.View.OnClickListener;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.GridView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -276,7 +284,7 @@ public class Display extends Activity {
 	// Assume it's known
 	private static final int ROW_ITEMS = 3;
 
-	private static final class GridAdapter extends BaseAdapter {
+	private final class GridAdapter extends BaseAdapter {
 		final ArrayList<String> mItems;
 		final int mCount;
 
@@ -326,10 +334,49 @@ public class Display extends Activity {
 			}
 			final TextView text = (TextView) view
 					.findViewById(android.R.id.text1);
+            Boolean second_column=position%3==1;
 			text.setTextSize(12);
 			text.setGravity(Gravity.CENTER);
 			text.setBackgroundColor(Color.WHITE);
-			text.setText(mItems.get(position));
+            String s=mItems.get(position);
+            if(s.length()>20 && second_column)
+                s=getString(R.string.click_gridview);
+			text.setText(s);
+            if(second_column && position/3!=0)
+                text.setOnClickListener(new OnClickListener() {
+                    public void onClick(View v) {
+                        TextView msg = new TextView(Display.this);
+                        List<String> modify= Arrays.asList(mItems.get(position).split("/"));
+                        int i=1;
+                        for(String part:modify){
+                            modify.set(modify.indexOf(part),Integer.toString(i++)+". "+part);
+                        }
+                        String alert=TextUtils.join("\n",modify);
+                        ScrollView sv=new ScrollView(getApplicationContext());
+                        sv.addView(msg);
+
+                        msg.setText(alert); //Html.fromHtml(
+                        msg.setTextSize(16);
+                       /* msg.setMaxLines(7);
+                        msg.setVerticalScrollBarEnabled(true);
+                        msg.setMovementMethod(new ScrollingMovementMethod());
+                        */
+                        msg.setTextColor(Color.BLACK);
+                        //msg.setMovementMethod(LinkMovementMethod.getInstance());
+                        AlertDialog.Builder builder1 = new AlertDialog.Builder(Display.this);
+                        builder1.setView(sv);
+                        builder1.setCancelable(true);
+                        builder1.setPositiveButton("OK",
+                                new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int id) {
+                                        dialog.cancel();
+                                    }
+                                });
+
+                        AlertDialog alert11 = builder1.create();
+                        alert11.show();
+                    }
+                });
 			return view;
 		}
 	}

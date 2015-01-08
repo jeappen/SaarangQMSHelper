@@ -48,7 +48,7 @@ public class SearchUser extends Activity {
 		Log.i("chooseUser", user);
 		Log.i("choosePass", pass);
 		setContentView(R.layout.search_user);
-
+setTitle("Search for User");
 		search_email_but = (Button) findViewById(R.id.search_email);
 		search_sid_but= (Button) findViewById(R.id.search_sid);
 		emailET=(EditText)findViewById(R.id.emailET);

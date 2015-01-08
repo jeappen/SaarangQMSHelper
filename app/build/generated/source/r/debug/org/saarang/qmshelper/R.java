@@ -1588,22 +1588,28 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0b000f;
         public static final int abc_toolbar_collapse_description=0x7f0b0010;
         public static final int app_name=0x7f0b0011;
-        public static final int clear_button=0x7f0b0012;
-        public static final int event_csv=0x7f0b0013;
-        public static final int event_separator=0x7f0b0014;
-        public static final int faq=0x7f0b0015;
-        public static final int feedback_backup_csv=0x7f0b0016;
-        public static final int feedback_csv=0x7f0b0017;
-        public static final int fest_name=0x7f0b0018;
-        public static final int id_default=0x7f0b0019;
-        public static final int id_name=0x7f0b001a;
-        public static final int id_prefix=0x7f0b001b;
-        public static final int placeholder_faq=0x7f0b001c;
-        public static final int register_button=0x7f0b001d;
-        public static final int registeredfaq=0x7f0b001e;
-        public static final int spinner_title=0x7f0b001f;
-        public static final int tempsave=0x7f0b0020;
-        public static final int update_button=0x7f0b0021;
+        public static final int barcode_prefix=0x7f0b0012;
+        public static final int card_registration=0x7f0b0013;
+        public static final int clear_button=0x7f0b0014;
+        public static final int click_gridview=0x7f0b0015;
+        public static final int email_subject=0x7f0b0016;
+        public static final int event_csv=0x7f0b0017;
+        public static final int event_separator=0x7f0b0018;
+        public static final int faq=0x7f0b0019;
+        public static final int feedback_backup_csv=0x7f0b001a;
+        public static final int feedback_csv=0x7f0b001b;
+        public static final int fest_name=0x7f0b001c;
+        public static final int id_default=0x7f0b001d;
+        public static final int id_name=0x7f0b001e;
+        public static final int id_prefix=0x7f0b001f;
+        public static final int main_email=0x7f0b0020;
+        public static final int placeholder_faq=0x7f0b0021;
+        public static final int plaeholder_email=0x7f0b0022;
+        public static final int register_button=0x7f0b0023;
+        public static final int registeredfaq=0x7f0b0024;
+        public static final int spinner_title=0x7f0b0025;
+        public static final int tempsave=0x7f0b0026;
+        public static final int update_button=0x7f0b0027;
     }
     public static final class style {
         /** 

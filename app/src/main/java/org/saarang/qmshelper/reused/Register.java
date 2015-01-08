@@ -599,6 +599,8 @@ public class Register extends Activity implements OnClickListener {
 		Thread networkThread = new Thread(new Runnable() {
 			@Override
 			public void run() {
+                while(scanContent.contains("//"))
+                scanContent=scanContent.replace("//","/");
 				try {
 					//TODO Order of things, Async task.
 					//TODO Check whether the next two lines screw up flags; if so set them up to run after request in Asynctask

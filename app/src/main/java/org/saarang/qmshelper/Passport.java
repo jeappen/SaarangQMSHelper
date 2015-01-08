@@ -27,6 +27,7 @@ public class Passport extends Activity {
 		Log.i("chooseUser", user);
 		Log.i("choosePass", pass);
 		setContentView(R.layout.passport);
+        setTitle(getResources().getString(R.string.card_registration));
 
 		pbut = (Button) findViewById(R.id.button1);
 		ebut= (Button) findViewById(R.id.button2);

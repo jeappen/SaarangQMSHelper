@@ -75,6 +75,7 @@
             android:background="@drawable/edittext_rounded_corners"
             android:ems="10"
             android:hint="Email ID"
+            android:text="@string/plaeholder_email"
             android:maxLines="1"
             android:padding="15dp" >
         </EditText>
@@ -314,8 +315,9 @@
             android:layout_height="wrap_content"
             android:background="@drawable/edittext_rounded_corners"
             android:ems="10"
-            android:inputType="text|number"
+            android:inputType="text|textNoSuggestions"
             android:hint="Bar Code"
+            android:text="@string/barcode_prefix"
             android:padding="10dp" />
             <View
                 android:layout_width="0dp"

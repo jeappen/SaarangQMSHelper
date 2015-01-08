@@ -18,6 +18,12 @@
     <string name="UserID_Name">Saarang Barcode ID</string>
     <string name="event_separator">_</string>
     <string name="fest_name">Saarang</string>
+    <string name="plaeholder_email">\@gmail.com</string>
+    <string name="barcode_prefix">SA</string>
+    <string name="card_registration">Barcode Registration</string>
+    <string name="main_email">webops@saarang.org</string>
+    <string name="email_subject">[QMS] Events Data</string>
+    <string name="click_gridview">Tap to show team members</string>
     <string-array
         name="FeedbackCheckbox">
         <item>Checkbox1</item>

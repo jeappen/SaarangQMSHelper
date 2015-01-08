@@ -2398,7 +2398,10 @@
         <item>	 iii) Informativeness	</item>
         <item>	3. How was your overall experience of the Startup Hive?	</item>
 
-    </string-array></file><file path="C:\Users\joera_000\AndroidStudioProjects\SaarangQMSHelper\app\src\main\res\values\strings.xml" qualifiers=""><string name="event_separator">_</string><string name="app_name">Saarang QMS Assistant</string><string name="spinner_title">no of tickets</string><string name="id_name">User ID</string><string name="placeholder_faq">FAQ goes here</string><string-array name="ExtraDept">
+    </string-array></file><file path="C:\Users\joera_000\AndroidStudioProjects\SaarangQMSHelper\app\src\main\res\values\strings.xml" qualifiers=""><string name="placeholder_faq">FAQ goes here</string><string name="update_button">Update Details</string><string name="card_registration">Barcode Registration</string><string name="id_default">(make new account to get)</string><string name="event_csv">/sdcard/eventregistration_data.csv</string><string name="barcode_prefix">SA</string><string-array name="skipevent">
+        <item>Wright</item>
+        <item>Circuit</item>
+    </string-array><string name="register_button">Make New Account and Update Details</string><string name="feedback_backup_csv">/sdcard/feedback_databackup.csv</string><string name="feedback_csv">/sdcard/feedback_data.csv</string><string name="UserID_Name">Saarang Barcode ID</string><string name="event_separator">_</string><string name="main_email">webops@saarang.org</string><string name="app_name">Saarang QMS Assistant</string><string name="email_subject">[QMS] Events Data</string><string name="spinner_title">no of tickets</string><string name="id_name">User ID</string><string-array name="ExtraDept">
         <!--<item>	Design	</item>
         <item>	Hospitality	</item>
         <item>	Sales and Distribution	</item>
@@ -2430,7 +2433,7 @@
         <item>	Startup Hive Bucket 2	</item>
         <item>	Events 	</item> -->
 
-    </string-array><string name="tempsave">/sdcard/temp.txt</string><string name="id_prefix"/><string name="update_button">Update Details</string><string name="id_default">(make new account to get)</string><string name="event_csv">/sdcard/eventregistration_data.csv</string><string-array name="FeedbackCheckbox">
+    </string-array><string name="tempsave">/sdcard/temp.txt</string><string name="id_prefix"/><string name="click_gridview">Tap to show team members</string><string-array name="FeedbackCheckbox">
         <item>Checkbox1</item>
          <item>Checkbox2</item>
          <item>Checkbox 3</item>
@@ -2442,9 +2445,6 @@
         <item>Choice 4</item>
         <item>Choice 5</item>
         <item>Choice 6</item>
-    </string-array><string-array name="skipevent">
-        <item>Wright</item>
-        <item>Circuit</item>
     </string-array><string-array name="SpecialForm">
         <item>	Design	</item>
         <item>	Hospitality	</item>
@@ -2472,7 +2472,7 @@
         <item>	Startup Hive Bucket 1	</item>
         <item>	Startup Hive Bucket 2	</item>
 
-    </string-array><string name="registeredfaq">"Tips:\n1.This app does not change the password for existing accounts.\n2.Since every account is tied to an email, the email cannot be changed. All other details are editable.\n3.Tap \"Clear All Fields\" to clear everything except the email."</string><string name="register_button">Make New Account and Update Details</string><string name="feedback_backup_csv">/sdcard/feedback_databackup.csv</string><string name="feedback_csv">/sdcard/feedback_data.csv</string><string name="fest_name">Saarang</string><string name="clear_button">Clear All Fields</string><string name="UserID_Name">Saarang Barcode ID</string></file><file path="C:\Users\joera_000\AndroidStudioProjects\SaarangQMSHelper\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+    </string-array><string name="registeredfaq">"Tips:\n1.This app does not change the password for existing accounts.\n2.Since every account is tied to an email, the email cannot be changed. All other details are editable.\n3.Tap \"Clear All Fields\" to clear everything except the email."</string><string name="fest_name">Saarang</string><string name="plaeholder_email">\@gmail.com</string><string name="clear_button">Clear All Fields</string></file><file path="C:\Users\joera_000\AndroidStudioProjects\SaarangQMSHelper\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style><style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

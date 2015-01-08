@@ -186,11 +186,11 @@ public class Choose extends ListActivity {
 		Intent sharingIntent = new Intent(Intent.ACTION_SEND);
 		//sharingIntent.setType("vnd.android.cursor.dir/email");
 		sharingIntent.setType("text/html");
-		String[] to = {"webops@shaastra.org"};
+		String[] to = {getString(R.string.main_email)};
 		sharingIntent.putExtra(Intent.EXTRA_EMAIL, to);
 		sharingIntent.putExtra(Intent.EXTRA_STREAM,
 				Uri.fromFile(file));
-		sharingIntent.putExtra(Intent.EXTRA_SUBJECT, "Data from barcode scanner app");
+		sharingIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.email_subject));
 		startActivity(Intent.createChooser(
 				sharingIntent, "Send email"));
 		}

@@ -31,6 +31,7 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -133,7 +134,7 @@ private int year, month, day;
 							+ "try again later", Toast.LENGTH_SHORT).show();
 		}
 		
-		
+		hideKeyboard();
 		updatebut=(Button) findViewById(R.id.update);
 		updatebut.setOnClickListener(new View.OnClickListener() {
 			
@@ -478,6 +479,14 @@ accomRG.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 			}
 		}
 	}
+    private void hideKeyboard() {
+        // Check if no view has focus:
+        View view = this.getCurrentFocus();
+        if (view != null) {
+            InputMethodManager inputManager = (InputMethodManager) this.getSystemService(Context.INPUT_METHOD_SERVICE);
+            inputManager.hideSoftInputFromWindow(view.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+        }
+    }
 	
 	class ExistingDetails extends AsyncTask<String, String, String> {
 		private ProgressDialog pDialog;

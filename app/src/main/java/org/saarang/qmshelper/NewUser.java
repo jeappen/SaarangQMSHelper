@@ -53,7 +53,6 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
 public class NewUser extends FragmentActivity implements OnDateSetListener   {
 	
 EditText fnameET,lnameET,emailET,crollET,mobnumET ,bcodeET,cbranchET,cnameET,cityET,passwordET,ageET;
@@ -428,6 +427,9 @@ regbut.setOnClickListener(new View.OnClickListener() {
 			
 		}*/
 	}
+    void barcodePrefix(){
+        bcodeET.setText("SA"+bcodeET.getText().toString().substring(2));
+    }
 
 	class UpdateDetails extends AsyncTask<String, String, String> {
 		private ProgressDialog pDialog;
